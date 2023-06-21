@@ -1,0 +1,26 @@
+used to start the server 
+************************
+
+airflow db init
+airflow webserver
+airflow scheduler
+
+
+MLFlow Server Startup 
+*********************
+mlflow server --backend-store-uri='sqlite:///database/mlflow_v01.db' --default-artifact-root="/home/mlruns/" --port=6006 --host=0.0.0.0
+
+Command to Zip and unzip 
+*************************
+
+zip -r initial_release1.zip  /home
+
+Install unzip file 
+******************
+apt-get install zip
+
+Related document
+****************
+
+https://linuxhint.com/zip-folder-ubuntu/
+https://jupyterlab.readthedocs.io/en/stable/user/files.html#uploading-and-downloading
